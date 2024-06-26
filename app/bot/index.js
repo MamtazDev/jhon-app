@@ -75,7 +75,7 @@ export default function BotScreen() {
           className="w-[32px] h-[32px]"
         />
       </View>
-      <ScrollView
+       {/* <ScrollView
         ref={scrollViewRef}
         alwaysBounceVertical={true}
         showsVerticalScrollIndicator={true}
@@ -87,8 +87,8 @@ export default function BotScreen() {
         ))}
         <BotInitialQuestions handleInitialQna={handleInitialQna} />
       </ScrollView>
-      <SendBotMessage handleSendMessage={handleSendMessage} />
-    </SafeAreaView>
+      <SendBotMessage handleSendMessage={handleSendMessage} /> */}
+    </SafeAreaView> 
   );
 }
 

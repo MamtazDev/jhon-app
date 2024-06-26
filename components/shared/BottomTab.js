@@ -5,7 +5,7 @@ import { useRouter } from "expo-router";
 export default function BottomTab({ currentTab = "Home" }) {
   const router = useRouter();
   return (
-    <View className="px-[16px] w-full">
+    <View className="px-[10px] w-full mb-[10px]">
       <View
         className="min-h-[82px] w-full rounded-[100px] flex-row justify-between items-center px-[28px]"
         style={{ backgroundColor: "rgba(255, 255, 255, 0.12)" }}
